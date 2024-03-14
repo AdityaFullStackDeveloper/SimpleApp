@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SimpleApp</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="register">Register</string>
+    <string name="enter_username">Enter userName</string>
+    <string name="login">Login</string>
+    <string name="enter_your_LoginEmail">enter_your_email</string>
+    <string name="enter_your_email">enter_your_Email</string>
+    <string name="enter_your_RegisterEmail">Enter your email</string>
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".UserLogin.UserLogin">
+    tools:context=".UserRegistration.UserRegistrationActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="320dp"
@@ -14,10 +14,10 @@
         android:layout_gravity="center_horizontal">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user_loginName"
+            android:id="@+id/enter_userRegisterName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/enter_username" />
+            android:hint="@string/enter_your_name" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -28,19 +28,20 @@
         android:layout_marginTop="10dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/user_loginEmail"
+            android:id="@+id/enter_userRegisterLastName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/enter_your_email" />
+            android:hint="@string/enter_last_name" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/user_loginButton"
+        android:id="@+id/register_YourData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFC107"
         android:layout_marginTop="20dp"
-        android:text="@string/login" />
+        android:textColor="#000000"
+        android:backgroundTint="#FABD06"
+        android:text="@string/register" />
 
 </LinearLayout>
